@@ -1,0 +1,24 @@
+class Store_Hours {
+public Day[] weekdays; 
+.......
+
+}
+
+class Day{
+public String Name;
+public Time Openhour;
+public Time Closehour;
+public Boolean Open;
+
+......
+
+}
+
+class Time {
+public Int hour;
+public Int Min;
+public String ampm;
+
+....
+
+}
